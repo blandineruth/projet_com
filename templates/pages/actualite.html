@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>communal.info</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">  
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="./static/css/style4.css" rel="stylesheet">
+</head>
+
+<body>
+       <!-- Topbar Start -->
+       <div class="container-fluid d-none d-lg-block">
+        <div class="row align-items-center bg-dark px-lg-5">
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-sm bg-dark p-0">
+                    <ul class="navbar-nav ml-n2">
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Ludi, 12 juin, 2023</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Acceuil</a>
+                        </li>
+                        <li class="nav-item border-right border-secondary">
+                            <a class="nav-link text-body small" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body small" href="#">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3 text-right d-none d-md-block">
+                <nav class="navbar navbar-expand-sm bg-dark p-0">
+                    <ul class="navbar-nav ml-auto mr-n2">
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-twitter"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-facebook-f"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-linkedin-in"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-instagram"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-google-plus-g"></small></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body" href="#"><small class="fab fa-youtube"></small></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row align-items-center bg-white py-3 px-lg-5">
+            <div class="col-lg-4">
+                <a href="index.html" class="navbar-brand p-0 d-none d-lg-block">
+                    <h1 class="m-0 display-4 text-uppercase text-primary">Communal<span class="text-secondary font-weight-normal">.Info</span></h1>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-4 text-uppercase text-primary">Communal<span class="text-white font-weight-normal">.Info</span></h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="{{url_for('page1')}}" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">Ma Commune</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Administration</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="{{url_for('cm')}}" class="dropdown-item">Conseil municipal</a>
+                            <a href="{{url_for('cm')}}" class="dropdown-item">J'aime cocody</a>
+                            <a href="{{url_for('cm')}}" class="dropdown-item">Culture</a>
+                        </div>
+                    </div>
+                    <a href="{{url_for('contact')}}" class="nav-item nav-link">Contact</a>
+                </div>
+                
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- Navbar Start -->
+  
+    <!-- Navbar End -->
+
+
+    <!-- Breaking News Start -->
+>
+    <!-- Breaking News End -->
+
+
+    <!-- News With Sidebar Start -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- News Detail Start -->
+                    <div class="position-relative mb-3">
+                        <img class="img-fluid w-100" src="./static/images/oidpbanner.jpg" style="object-fit: cover;">
+                        <div class="bg-white border border-top-0 p-4">
+                
+                            <h1 class="mb-3 text-secondary text-uppercase font-weight-bold">Description de cocody.</h1>
+                            <p>Cocody est une commune du département d'Abidjan située dans Abidjan nord. Elle couvre une superficie de 132km2. Sa population en 2014 serait de 700 à 800 000 habitants. la commune de Cocody est la plus huppée et la plus accessible de toutes les Communes du District d'Abidjan.</p>
+                            <p> Elle est située à 15 minutes de l’aéroport d’Abidjan (en passant par le pont Henri Konan BEDIE) et à 10 minutes de la Zone portuaire d’Abidjan. Elle dispose d’espace territorial favorable à l’installation de zones industrielles ou de parcs d’expositions.</p>
+                            <h3 class="text-uppercase font-weight-bold mb-3">Cocody</h3>
+                            <!-- <img class="img-fluid w-50 float-left mr-4 mb-2" src="img/news-800x500-1.jpg"> -->
+                            <p>La commune de Cocody, déformation de Cocoly, est née d’un petit village qui était situé à l’emplacement du stade Géo-André, actuel stade Félix-Houphouët-Boigny. Le village était habité par les autochtones Ébriés autrefois appelés « Tchamans », qui étaient répartis en onze fratries regroupées en six groupes ou « goto », dont les Bidjans, les Djédo, les Gnagon, les Kowês et les Noutoua. Cocody est l’un des tout premiers villages d’Abidjan. C’est à la suite d'une bagarre entre les « Tchamans » que sept villages se sont constitués. Blockauss, autrefois appelé Anokouaté, servait d’intermédiaire entre certains villages en litige.
+
+                                Cocody s’étend, petit à petit, vers Blockauss à la faveur de l’essor économique de 1905, jusque sur les sites actuels de la Polyclinique Sainte-Anne-Marie. En 1929, les sites de la savonnerie Blohorn l’entraînent au pied de l’hôtel Ivoire non loin du village de Blockauss.
+                                
+                                L'expansion de Cocody se poursuit lorsqu'Abidjan est érigée en capitale, en 1934.
+                                
+                                En 1960, Cocody réalise ses premières constructions. Ce sont les 160 logements, dans le souci de loger tous les agents de l’État. 29 ans plus tard, Cocody voit la naissance du nouveau quartier appelé Angré.
+                                
+                                Le 17 octobre 19803, Cocody est érigée en commune avec l’élection d’un maire par les conseillers municipaux.
+                                 Dès lors, quatre villages faisant autrefois partie de la sous-préfecture
+                                  de Bingerville sont rattachés à la commune : Anono, M’pouto, M’badon et Akouédo. 
+                                  Arsène Usher Assouan est le premier maire de la commune..</p>
+                            <h5 class="text-uppercase font-weight-bold mb-3"></h5>
+                            <!-- <img class="img-fluid w-50 float-right mr-4 mb-2" src=""> -->
+                            <p></p>
+                        </div>
+                        <div class="d-flex justify-content-between bg-white border border-top-0 p-4">
+                            <div class="d-flex align-items-center">
+                                <!-- <img class="rounded-circle mr-2" src="" width="25" height="25" alt=""> -->
+                                <span></span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="ml-3"><i class="far fa-eye mr-2"></i>12345</span>
+                                <span class="ml-3"><i class="far fa-comment mr-2"></i>123</span>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="mb-3">
+                        <div class="section-title mb-0">
+                            <h4 class="m-0 text-uppercase font-weight-bold">Newsletter</h4>
+                        </div>
+                        <div class="bg-white text-center border border-top-0 p-3">
+                            <p>Recevoir des informations à l'instant</p>
+                            <form action="">
+                                <div class="input-group mb-2" style="width: 100%;">
+                                    <input type="text" class="form-control form-control-lg" placeholder="Your Email">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary font-weight-bold px-3">Inscrivez-vous</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- <small>Lorem ipsum dolor sit amet elit</small> -->
+                        </div>
+                    </div>
+                    <!-- Newsletter End -->
+
+                    
+                    <!-- Tags End -->
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- News With Sidebar End -->
+
+
+    <!-- Footer Start -->
+     <!-- Footer Start -->
+     <div class="container-fluid bg-dark pt-5 px-sm-3 px-md-5 mt-5">
+      <div class="row py-4">
+          <div class="col-lg-3 col-md-6 mb-5">
+              <h5 class="mb-4 text-white text-uppercase font-weight-bold">Communal.Info</h5>
+              <p class="font-weight-medium"><i class="fa fa-map-marker-alt mr-2"></i>Abidjan, côte d'ivoire</p>
+              <p class="font-weight-medium"><i class="fa fa-phone-alt mr-2"></i>+225 07074456</p>
+              <p class="font-weight-medium"><i class="fa fa-envelope mr-2"></i>Communal.info.com</p>
+              <h6 class="mt-4 mb-3 text-white text-uppercase font-weight-bold">Abonnez-vous</h6>
+              <div class="d-flex justify-content-start">
+                  <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-instagram"></i></a>
+                  <a class="btn btn-lg btn-secondary btn-lg-square" href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+          </div>
+         
+          <div class="col-lg-3 col-md-6 mb-5">
+              <h5 class="mb-4 text-white text-uppercase font-weight-bold">Categories</h5>
+              <div class="m-n1">
+                  <a href="" class="btn btn-sm btn-secondary m-1">Politics</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Corporate</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Health</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Education</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Science</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Foods</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Entertainment</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Travel</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Lifestyle</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Politics</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Corporate</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Health</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Education</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Science</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
+                  <a href="" class="btn btn-sm btn-secondary m-1">Foods</a>
+              </div>
+          </div>
+          
+      </div>
+  </div>
+  <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
+      <p class="m-0 text-center">&copy; <a href="#">Communal.info</a>. Tout droit reservé. 
+  
+  
+  </div>
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="./static/plugins/lib/easing/easing.min.js"></script>
+        <script src="./static/plugins/lib/owlcarousel/owl.carousel.min.js"></script>
+    
+        <!-- Template Javascript -->
+        <script src="./static/js/main.js"></script>
+</body>
+
+</html>
